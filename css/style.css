@@ -76,17 +76,35 @@ img {
 .navbar-row {
     display: flex;
     justify-content: space-between;
+    min-height: 70px;
+    align-items: center;
 }
 
 .navbar-section {
     display: flex;
+    
 }
 
 .navbar-clickable {
     cursor: pointer;
     color: white;
+    padding: 0 20px;
 }
 
 .red {
     color: red;
+    font-size: 12px;
+}
+
+.green {
+    color: green;
+}
+
+.navbar-clickable > span {
+    font-size: 25px;
+}
+
+.ending {
+    background-color: #4A4A4A;
+   
 }
