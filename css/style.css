@@ -13,6 +13,13 @@
 .app-content {
     flex-grow: 1;
     position: relative;
+    overflow: auto;
+    background-color: black;
+}
+
+img {
+    width: 100%;
+    display: block;
 }
 
 /* app content */
@@ -21,11 +28,29 @@
     position: absolute;
     top: 3px;
     right: 3px;
+    color: red;
 }
 
 .container {
-    width: 1000px;
+    width: 1400px;
     margin: 0 auto;
+    padding-top: 50px;
+}
+
+.row {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.user {
+    flex-basis: calc(100% / 7 );
+    position: relative;
+}
+
+.user-label {
+    position: absolute;
+    left: 0;
+    bottom: 3px;
 }
 
 /* navbar */
