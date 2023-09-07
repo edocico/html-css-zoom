@@ -43,7 +43,7 @@ img {
 .container {
     max-width: 1400px; 
     margin: 0 auto;
-    padding-top: 50px;
+    padding-top: 60px;
 }
 
 .row {
@@ -64,7 +64,7 @@ img {
     color: white;
     background-color: rgba(0, 0, 0, 0.3);
     line-height: 1.5em;
-    padding: 02px 5px;
+    padding: 2px 5px;
     font-size: 16px;
 }
 
@@ -100,6 +100,11 @@ img {
 
 .green {
     color: green;
+    font-size: 25px;
+}
+
+.video {
+    font-size: 25px;
 }
 
 .navbar-clickable > span {
@@ -113,9 +118,11 @@ img {
 
 .angle {
     display: flex;
-    align-items: center;
+    align-items: flex-end;
 }
 
 .arrow {
-    margin-left: 6px;
+    margin-left: 10px;
+    align-self: center;
 }
+
