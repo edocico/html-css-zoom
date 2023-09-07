@@ -110,3 +110,12 @@ img {
     background-color: #4A4A4A;
    
 }
+
+.angle {
+    display: flex;
+    align-items: center;
+}
+
+.arrow {
+    margin-left: 6px;
+}
