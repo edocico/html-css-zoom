@@ -37,10 +37,11 @@ img {
     line-height: 1.5em;
     padding: 6px 6px;
     border-radius: 5px;
+    position: sticky;
 }
 
 .container {
-    width: 1400px;
+    max-width: 1400px; 
     margin: 0 auto;
     padding-top: 50px;
 }
@@ -51,8 +52,9 @@ img {
 }
 
 .user {
-    flex-basis: calc(100% / 7 );
+    flex-basis: 250px;
     position: relative;
+    padding: 10px 10px ;
 }
 
 .user-label {
