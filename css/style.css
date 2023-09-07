@@ -23,6 +23,11 @@
     right: 3px;
 }
 
+.container {
+    width: 1000px;
+    margin: 0 auto;
+}
+
 /* navbar */
 
 .navbar {
