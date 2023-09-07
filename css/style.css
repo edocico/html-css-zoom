@@ -1,0 +1,18 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.app {
+    height: 100vh;
+}
+
+/* app content */
+
+/* navbar */
+
+.navbar {
+    min-height: 50px;
+    background-color: #222222;
+}
