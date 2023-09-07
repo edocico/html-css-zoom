@@ -69,7 +69,7 @@ img {
 /* navbar */
 
 .navbar {
-    min-height: 50px;
+    
     background-color: #222222;
 }
 
@@ -80,4 +80,13 @@ img {
 
 .navbar-section {
     display: flex;
+}
+
+.navbar-clickable {
+    cursor: pointer;
+    color: white;
+}
+
+.red {
+    color: red;
 }
