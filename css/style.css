@@ -115,7 +115,13 @@ img {
 
 .ending {
     background-color: #4A4A4A;
-   
+    align-self:  stretch;
+}
+
+.end-call {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .angle {
